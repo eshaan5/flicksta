@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "videos_app",
-    "slug": "videos_app",
+    "name": "Flicksta",
+    "scheme": "flicksta",
+    "slug": "flicksta",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,6 +23,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
